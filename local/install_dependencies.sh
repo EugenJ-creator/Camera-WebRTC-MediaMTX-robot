@@ -17,7 +17,8 @@ sudo apt install -y \
     python3-venv \
     python3-pip
 
-    #Install package Libcamera and Picamera2  globally for Picamera script !!!!!!!!!!!!!!
+    #Install package Libcamera and Picamera2  globally for Picamera script, only then system will see it. 
+    #libcamera -  Makes camera available to system !!!!!!!!!!!!!!
     sudo apt update
     sudo apt install -y python3-picamera2 libcamera-apps
 
