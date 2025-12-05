@@ -17,6 +17,10 @@ sudo apt install -y \
     python3-venv \
     python3-pip
 
+    #Install package Libcamera and Picamera2  globally for Picamera script !!!!!!!!!!!!!!
+    sudo apt update
+    sudo apt install -y python3-picamera2 libcamera-apps
+
 echo "🐍 Step 3: Creating Python virtual environment: local_env"
 python3 -m venv --system-site-packages local_env
 
